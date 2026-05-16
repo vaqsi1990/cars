@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAVAL — Официальный дилер</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-brand">
+               <img src="images/logo1.png" alt="logo">
+            </div>
+
+            <button
+                type="button"
+                class="main-nav-toggle"
+                aria-label="Открыть меню"
+                aria-expanded="false"
+                aria-controls="main-nav-menu"
+            >
+                <span class="main-nav-toggle__bar" aria-hidden="true"></span>
+                <span class="main-nav-toggle__bar" aria-hidden="true"></span>
+                <span class="main-nav-toggle__bar" aria-hidden="true"></span>
+            </button>
+
+            <div class="header-contact">
+               <img src="images/phone.png" alt="phone">
+                <a class="header-phone" href="tel:+00000000000">+0 000 000 00 00</a>
+            </div>
+
+            <div class="header-location">
+                <img class="header-location-icon" src="images/adress.png" alt="map">
+                <div class="header-location-text">
+                    <span class="header-city">г. Москва</span>
+                    <span class="header-hours">Часы работы с 09:00 до 21:00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Основное меню">
+        <div id="main-nav-menu" class="main-nav-inner">
+    
+            <div class="main-nav-models">
+                <a href="#">M6</a>
+                <a href="#">DARGO X</a>
+                <a href="#">DARGO</a>
+                <a href="#">JOLION</a>
+                <a href="#">F7x</a>
+                <a href="#">F7</a>
+                <a href="#">H9</a>
+                <a href="#">GWM Poer</a>
+                <a href="#">GWM Poer KINGKONG</a>
+            </div>
+    
+            <div class="main-nav-actions">
+                <a href="#">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a>
+                <a href="#">ТЕСТ-ДРАЙВ</a>
+                <a href="#">КОНТАКТЫ</a>
+            </div>
+    
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="hero-inner">
+           <div class="hero-title">
+            <h1>Увеличиваем выгоды на HAVAL</h1>
+            <p>в Химках к Чёрной пятнице!</p>
+           </div>
+           <button type="button" class="hero-cta js-open-form" data-fancybox data-src="#callback-popup" data-touch="false">Зафиксировать условия</button>
+        </div>
+    </div>
+
+    <section class="clock" aria-label="Таймер акции">
+        <div class="clock-inner">
+            <div class="clock-block">
+                <h2 class="clock-heading">Оставьте заявку и зафиксируйте условия</h2>
+                <!-- Sinoby Timer -->
+                <div class="sinoby-timer"
+                    data-sinoby-reserve="sinoby-y8oc7a"
+                    data-config='{
+                    "type": "fixed-end",
+                    "preset": "rings-segmented-inner",
+                    "schedule": {
+                        "endAt": "2026-06-01T00:00:00"
+                    },
+                    "visibility": {
+                        "separator": false
+                    },
+                    "style": {
+                        "digitSize": 72,
+                        "digitGap": 8,
+                        "digitColor": "#000000",
+                        "labelSize": 12,
+                        "labelGap": 0,
+                        "labelColor": "#b9b9b9",
+                        "cardBackgroundColor": "#f8fafc",
+                        "ringCurrentColor": "#00cabf",
+                        "ringRemainingColor": "#a9a9a9",
+                        "ringRadius": 42
+                    }
+                }'
+                    data-lazy="true"
+                    aria-live="polite"></div>
+               
+                <!-- /Sinoby Timer -->
+                <motion class="countdown-removed" hidden>
+                    <div class="countdown-item">
+                        <div class="countdown-ring" data-ring="days">
+                        <div class="countdown-face">
+                            <span class="countdown-value" data-unit="days">8</span>
+                            <span class="countdown-label">дней</span>
+                        </div>
+                        </div>
+                    </div>
+                    <span class="countdown-separator" aria-hidden="true">:</span>
+                    <div class="countdown-item">
+                        <div class="countdown-ring" data-ring="hours">
+                            <div class="countdown-face">
+                                <span class="countdown-value" data-unit="hours">8</span>
+                                <span class="countdown-label">часов</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="countdown-separator" aria-hidden="true">:</span>
+                    <div class="countdown-item">
+                        <div class="countdown-ring" data-ring="minutes">
+                            <div class="countdown-face">
+                                <span class="countdown-value" data-unit="minutes">56</span>
+                                <span class="countdown-label">минут</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="countdown-separator" aria-hidden="true">:</span>
+                    <div class="countdown-item">
+                        <div class="countdown-ring" data-ring="seconds">
+                            <div class="countdown-face">
+                                <span class="countdown-value" data-unit="seconds">28</span>
+                                <span class="countdown-label">секунд</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="clock-cta js-open-form" data-fancybox data-src="#callback-popup" data-touch="false">Зафиксировать условия</button>
+        </div>
+    </section>
+    <section class="cars" aria-label="Автомобили в наличии">
+        <div class="cars-inner">
+            <div class="cars-items">
+                <div class="cars-card">
+                    <div class="cars-headers">
+                        <h2 class="cars-title">В наличии </h2>
+                        <p class="cars-description">21 автомобиль</p>
+                    </div>
+                    <div class="cars-list">
+                        <div class="cars-model-block">
+                            <div class="cars-model-header">
+                                <h3 class="cars-model-name">HAVAL M6</h3>
+                                <span class="cars-benefit-value">Выгода до <span class="cars-benefit-value-number">410&nbsp;000&nbsp;₽</span></span>
+                            </div>
+                            <p class="cars-benefit">
+                                <a href="#" class="cars-config-link">
+                                    <span class="cars-config-icon" aria-hidden="true">
+                                        <img src="images/Vector.png" alt="">
+                                    </span>
+                                    Подобрать<br>комплектацию
+                                </a>
+                            </p>
+                          
+                        </div>
+                        <div class="cars-slider swiper" data-bullet-colors="black,light,gray" data-initial-slide="0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="cars-model-image" src="images/cars/m63.png" alt="HAVAL M6">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="cars-model-image" src="images/cars/m62.png" alt="HAVAL M6">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="cars-model-image" src="images/cars/m61.png" alt="HAVAL M6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cars-dots" role="tablist" aria-label="Цвета автомобиля"></div>
+                    
+                    <div class="cars-perks" aria-label="Преимущества">
+                        <div class="cars-perks-col">
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon cars-perk-icon--accent" aria-hidden="true">
+                                    <img src="images/outline.png" alt="">
+                                </span>
+                                <p class="cars-perk-text">Выгода<br>по госпрограмме</p>
+                            </div>
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/check.png" alt="">
+                                </span>
+                                <p class="cars-perk-text cars-perk-text--single">КАСКО в подарок</p>
+                            </div>
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/gift.png" alt="">
+                                </span>
+                                <p class="cars-perk-text">Доп.оборудование<br><span class="cars-perk-line-nowrap">на 100&nbsp;000&nbsp;р в подарок</span></p>
+                            </div>
+                        </div>
+                        <div class="cars-perks-col">
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/wallet.png" alt="">
+                                </span>
+                                <p class="cars-perk-text">Максимальные<br>выгоды по трейд-ин</p>
+                            </div>
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/car_ico8.png" alt="">
+                                </span>
+                                <p class="cars-perk-text cars-perk-text--single">Зимние шины в подарок</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cars-actions">
+                        <a href="#callback-popup" class="cars-action cars-action--primary js-open-form" data-fancybox data-touch="false">Узнать стоимость</a>
+                        <a href="#callback-popup" class="cars-action cars-action--dark js-open-form" data-fancybox data-touch="false">Рассчитать кредит</a>
+                        <a href="#callback-popup" class="cars-action cars-action--outline js-open-form" data-fancybox data-touch="false">Подобрать комплектацию</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="cars-inner">
+            <div class="cars-items">
+                <div class="cars-card">
+                    <div class="cars-headers">
+                        <h2 class="cars-title">В наличии </h2>
+                       
+                    </div>
+                    <div class="cars-list">
+                        <div class="cars-model-block">
+                            <div class="cars-model-header">
+                                <h3 class="cars-model-name">HAVAL DARGO X</h3>
+                                <span class="cars-benefit-value">Выгода до <span class="cars-benefit-value-number">320&nbsp;000&nbsp;₽</span></span>
+                            </div>
+                            <p class="cars-benefit">
+                                <a href="#" class="cars-config-link">
+                                    <span class="cars-config-icon" aria-hidden="true">
+                                        <img src="images/Vector.png" alt="">
+                                    </span>
+                                    Подобрать<br>комплектацию
+                                </a>
+                            </p>
+                            
+                        </div>
+                        <div class="cars-slider swiper" data-bullet-colors="gray,black,light,terracotta" data-initial-slide="3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="cars-model-image" src="images/cars/dargo2.png" alt="HAVAL DARGO X">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="cars-model-image" src="images/cars/dargo4.png" alt="HAVAL DARGO X">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="cars-model-image" src="images/cars/dargo1.png" alt="HAVAL DARGO X">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="cars-model-image" src="images/cars/dargo3.png" alt="HAVAL DARGO X">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cars-dots" role="tablist" aria-label="Цвета автомобиля"></div>
+                    
+                    <div class="cars-perks" aria-label="Преимущества">
+                        <div class="cars-perks-col">
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon cars-perk-icon--accent" aria-hidden="true">
+                                    <img src="images/outline.png" alt="">
+                                </span>
+                                <p class="cars-perk-text">Выгода<br>по госпрограмме</p>
+                            </div>
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/check.png" alt="">
+                                </span>
+                                <p class="cars-perk-text cars-perk-text--single">КАСКО в подарок</p>
+                            </div>
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/gift.png" alt="">
+                                </span>
+                                <p class="cars-perk-text">Доп.оборудование<br><span class="cars-perk-line-nowrap">на 100&nbsp;000&nbsp;р в подарок</span></p>
+                            </div>
+                        </div>
+                        <div class="cars-perks-col">
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/wallet.png" alt="">
+                                </span>
+                                <p class="cars-perk-text">Максимальные<br>выгоды по трейд-ин</p>
+                            </div>
+                            <div class="cars-perk">
+                                <span class="cars-perk-icon" aria-hidden="true">
+                                    <img src="images/car_ico8.png" alt="">
+                                </span>
+                                <p class="cars-perk-text cars-perk-text--single">Зимние шины в подарок</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cars-actions">
+                        <a href="#callback-popup" class="cars-action cars-action--primary js-open-form" data-fancybox data-touch="false">Узнать стоимость</a>
+                        <a href="#callback-popup" class="cars-action cars-action--dark js-open-form" data-fancybox data-touch="false">Рассчитать кредит</a>
+                        <a href="#callback-popup" class="cars-action cars-action--outline js-open-form" data-fancybox data-touch="false">Подобрать комплектацию</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <div id="callback-popup" class="callback-popup" style="display: none;" aria-hidden="true">
+        <div class="callback-popup__inner">
+            <p class="callback-popup__badge">HAVAL</p>
+            <h2 class="callback-popup__title">Оставьте заявку</h2>
+            <p class="callback-popup__text">Перезвоним в течение 15 минут и ответим на все вопросы</p>
+            <form class="callback-form" id="callback-form" novalidate>
+                <label class="callback-form__field">
+                    <span class="callback-form__label">Номер телефона</span>
+                    <input
+                        type="tel"
+                        name="phone"
+                        class="callback-form__input"
+                        placeholder="+7 (___) ___-__-__"
+                        inputmode="tel"
+                        autocomplete="tel"
+                        required
+                    >
+                </label>
+                <button type="submit" class="callback-form__submit">Отправить</button>
+                <p class="callback-form__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+            </form>
+            <div class="callback-popup__success" id="callback-success" hidden>
+                <span class="callback-popup__success-icon" aria-hidden="true">✓</span>
+                <p class="callback-popup__success-title">Заявка отправлена</p>
+                <p class="callback-popup__success-text">Менеджер свяжется с вами в ближайшее время</p>
+            </div>
+        </div>
+    </div>
+    <script src="sinoby-timer.js"></script>
+    <script src="https://timer.sinoby.ru/public/assets/embed/timer-core.min.js?v=20260514a"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
