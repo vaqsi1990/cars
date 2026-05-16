@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,27 +10,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header-inner">
             <div class="header-brand">
-               <img src="images/logo1.png" alt="logo">
+                <img src="images/logo1.png" alt="logo">
             </div>
 
-            <button
-                type="button"
-                class="main-nav-toggle"
-                aria-label="Открыть меню"
-                aria-expanded="false"
-                aria-controls="main-nav-menu"
-            >
+            <button type="button" class="main-nav-toggle" aria-label="Открыть меню" aria-expanded="false"
+                aria-controls="main-nav-menu">
                 <span class="main-nav-toggle__bar" aria-hidden="true"></span>
                 <span class="main-nav-toggle__bar" aria-hidden="true"></span>
                 <span class="main-nav-toggle__bar" aria-hidden="true"></span>
             </button>
 
             <div class="header-contact">
-               <img src="images/phone.png" alt="phone">
+                <img src="images/phone.png" alt="phone">
                 <a class="header-phone" href="tel:+00000000000">+0 000 000 00 00</a>
             </div>
 
@@ -45,7 +42,7 @@
 
     <nav class="main-nav" aria-label="Основное меню">
         <div id="main-nav-menu" class="main-nav-inner">
-    
+
             <div class="main-nav-models">
                 <a href="#">M6</a>
                 <a href="#">DARGO X</a>
@@ -57,22 +54,23 @@
                 <a href="#">GWM Poer</a>
                 <a href="#">GWM Poer KINGKONG</a>
             </div>
-    
+
             <div class="main-nav-actions">
                 <a href="#">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a>
                 <a href="#">ТЕСТ-ДРАЙВ</a>
                 <a href="#">КОНТАКТЫ</a>
             </div>
-    
+
         </div>
     </nav>
     <div class="hero">
         <div class="hero-inner">
-           <div class="hero-title">
-            <h1>Увеличиваем выгоды на HAVAL</h1>
-            <p>в Химках к Чёрной пятнице!</p>
-           </div>
-           <button type="button" class="hero-cta js-open-form" data-fancybox data-src="#callback-popup" data-touch="false">Зафиксировать условия</button>
+            <div class="hero-title">
+                <h1>Увеличиваем выгоды на HAVAL</h1>
+                <p>в Химках к Чёрной пятнице!</p>
+            </div>
+            <button type="button" class="hero-cta js-open-form" data-fancybox data-src="#callback-popup"
+                data-touch="false">Зафиксировать условия</button>
         </div>
     </div>
 
@@ -81,9 +79,7 @@
             <div class="clock-block">
                 <h2 class="clock-heading">Оставьте заявку и зафиксируйте условия</h2>
                 <!-- Sinoby Timer -->
-                <div class="sinoby-timer"
-                    data-sinoby-reserve="sinoby-y8oc7a"
-                    data-config='{
+                <div class="sinoby-timer" data-sinoby-reserve="sinoby-y8oc7a" data-config='{
                     "type": "fixed-end",
                     "preset": "rings-segmented-inner",
                     "schedule": {
@@ -104,50 +100,10 @@
                         "ringRemainingColor": "#a9a9a9",
                         "ringRadius": 42
                     }
-                }'
-                    data-lazy="true"
-                    aria-live="polite"></div>
-               
-                <!-- /Sinoby Timer -->
-                <motion class="countdown-removed" hidden>
-                    <div class="countdown-item">
-                        <div class="countdown-ring" data-ring="days">
-                        <div class="countdown-face">
-                            <span class="countdown-value" data-unit="days">8</span>
-                            <span class="countdown-label">дней</span>
-                        </div>
-                        </div>
-                    </div>
-                    <span class="countdown-separator" aria-hidden="true">:</span>
-                    <div class="countdown-item">
-                        <div class="countdown-ring" data-ring="hours">
-                            <div class="countdown-face">
-                                <span class="countdown-value" data-unit="hours">8</span>
-                                <span class="countdown-label">часов</span>
-                            </div>
-                        </div>
-                    </div>
-                    <span class="countdown-separator" aria-hidden="true">:</span>
-                    <div class="countdown-item">
-                        <div class="countdown-ring" data-ring="minutes">
-                            <div class="countdown-face">
-                                <span class="countdown-value" data-unit="minutes">56</span>
-                                <span class="countdown-label">минут</span>
-                            </div>
-                        </div>
-                    </div>
-                    <span class="countdown-separator" aria-hidden="true">:</span>
-                    <div class="countdown-item">
-                        <div class="countdown-ring" data-ring="seconds">
-                            <div class="countdown-face">
-                                <span class="countdown-value" data-unit="seconds">28</span>
-                                <span class="countdown-label">секунд</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button type="button" class="clock-cta js-open-form" data-fancybox data-src="#callback-popup" data-touch="false">Зафиксировать условия</button>
+                }' data-lazy="true" aria-live="polite"></div>
+        </div>
+            <button type="button" class="clock-cta js-open-form" data-fancybox data-src="#callback-popup"
+                data-touch="false">Зафиксировать условия</button>
         </div>
     </section>
     <section class="cars" aria-label="Автомобили в наличии">
@@ -162,7 +118,8 @@
                         <div class="cars-model-block">
                             <div class="cars-model-header">
                                 <h3 class="cars-model-name">HAVAL M6</h3>
-                                <span class="cars-benefit-value">Выгода до <span class="cars-benefit-value-number">410&nbsp;000&nbsp;₽</span></span>
+                                <span class="cars-benefit-value">Выгода до <span
+                                        class="cars-benefit-value-number">410&nbsp;000&nbsp;₽</span></span>
                             </div>
                             <p class="cars-benefit">
                                 <a href="#" class="cars-config-link">
@@ -172,7 +129,7 @@
                                     Подобрать<br>комплектацию
                                 </a>
                             </p>
-                          
+
                         </div>
                         <div class="cars-slider swiper" data-bullet-colors="black,light,gray" data-initial-slide="0">
                             <div class="swiper-wrapper">
@@ -189,7 +146,7 @@
                         </div>
                     </div>
                     <div class="cars-dots" role="tablist" aria-label="Цвета автомобиля"></div>
-                    
+
                     <div class="cars-perks" aria-label="Преимущества">
                         <div class="cars-perks-col">
                             <div class="cars-perk">
@@ -208,7 +165,8 @@
                                 <span class="cars-perk-icon" aria-hidden="true">
                                     <img src="images/gift.png" alt="">
                                 </span>
-                                <p class="cars-perk-text">Доп.оборудование<br><span class="cars-perk-line-nowrap">на 100&nbsp;000&nbsp;р в подарок</span></p>
+                                <p class="cars-perk-text">Доп.оборудование<br><span class="cars-perk-line-nowrap">на
+                                        100&nbsp;000&nbsp;р в подарок</span></p>
                             </div>
                         </div>
                         <div class="cars-perks-col">
@@ -227,26 +185,30 @@
                         </div>
                     </div>
                     <div class="cars-actions">
-                        <a href="#callback-popup" class="cars-action cars-action--primary js-open-form" data-fancybox data-touch="false">Узнать стоимость</a>
-                        <a href="#callback-popup" class="cars-action cars-action--dark js-open-form" data-fancybox data-touch="false">Рассчитать кредит</a>
-                        <a href="#callback-popup" class="cars-action cars-action--outline js-open-form" data-fancybox data-touch="false">Подобрать комплектацию</a>
+                        <a href="#callback-popup" class="cars-action cars-action--primary js-open-form" data-fancybox
+                            data-touch="false">Узнать стоимость</a>
+                        <a href="#callback-popup" class="cars-action cars-action--dark js-open-form" data-fancybox
+                            data-touch="false">Рассчитать кредит</a>
+                        <a href="#callback-popup" class="cars-action cars-action--outline js-open-form" data-fancybox
+                            data-touch="false">Подобрать комплектацию</a>
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div class="cars-inner">
             <div class="cars-items">
                 <div class="cars-card">
                     <div class="cars-headers">
                         <h2 class="cars-title">В наличии </h2>
-                       
+
                     </div>
                     <div class="cars-list">
                         <div class="cars-model-block">
                             <div class="cars-model-header">
                                 <h3 class="cars-model-name">HAVAL DARGO X</h3>
-                                <span class="cars-benefit-value">Выгода до <span class="cars-benefit-value-number">320&nbsp;000&nbsp;₽</span></span>
+                                <span class="cars-benefit-value">Выгода до <span
+                                        class="cars-benefit-value-number">320&nbsp;000&nbsp;₽</span></span>
                             </div>
                             <p class="cars-benefit">
                                 <a href="#" class="cars-config-link">
@@ -256,9 +218,10 @@
                                     Подобрать<br>комплектацию
                                 </a>
                             </p>
-                            
+
                         </div>
-                        <div class="cars-slider swiper" data-bullet-colors="gray,black,light,terracotta" data-initial-slide="3">
+                        <div class="cars-slider swiper" data-bullet-colors="gray,black,light,terracotta"
+                            data-initial-slide="3">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <img class="cars-model-image" src="images/cars/dargo2.png" alt="HAVAL DARGO X">
@@ -276,7 +239,7 @@
                         </div>
                     </div>
                     <div class="cars-dots" role="tablist" aria-label="Цвета автомобиля"></div>
-                    
+
                     <div class="cars-perks" aria-label="Преимущества">
                         <div class="cars-perks-col">
                             <div class="cars-perk">
@@ -295,7 +258,8 @@
                                 <span class="cars-perk-icon" aria-hidden="true">
                                     <img src="images/gift.png" alt="">
                                 </span>
-                                <p class="cars-perk-text">Доп.оборудование<br><span class="cars-perk-line-nowrap">на 100&nbsp;000&nbsp;р в подарок</span></p>
+                                <p class="cars-perk-text">Доп.оборудование<br><span class="cars-perk-line-nowrap">на
+                                        100&nbsp;000&nbsp;р в подарок</span></p>
                             </div>
                         </div>
                         <div class="cars-perks-col">
@@ -314,13 +278,16 @@
                         </div>
                     </div>
                     <div class="cars-actions">
-                        <a href="#callback-popup" class="cars-action cars-action--primary js-open-form" data-fancybox data-touch="false">Узнать стоимость</a>
-                        <a href="#callback-popup" class="cars-action cars-action--dark js-open-form" data-fancybox data-touch="false">Рассчитать кредит</a>
-                        <a href="#callback-popup" class="cars-action cars-action--outline js-open-form" data-fancybox data-touch="false">Подобрать комплектацию</a>
+                        <a href="#callback-popup" class="cars-action cars-action--primary js-open-form" data-fancybox
+                            data-touch="false">Узнать стоимость</a>
+                        <a href="#callback-popup" class="cars-action cars-action--dark js-open-form" data-fancybox
+                            data-touch="false">Рассчитать кредит</a>
+                        <a href="#callback-popup" class="cars-action cars-action--outline js-open-form" data-fancybox
+                            data-touch="false">Подобрать комплектацию</a>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
     <div id="callback-popup" class="callback-popup" style="display: none;" aria-hidden="true">
@@ -331,15 +298,8 @@
             <form class="callback-form" id="callback-form" novalidate>
                 <label class="callback-form__field">
                     <span class="callback-form__label">Номер телефона</span>
-                    <input
-                        type="tel"
-                        name="phone"
-                        class="callback-form__input"
-                        placeholder="+7 (___) ___-__-__"
-                        inputmode="tel"
-                        autocomplete="tel"
-                        required
-                    >
+                    <input type="tel" name="phone" class="callback-form__input" placeholder="+7 (___) ___-__-__"
+                        inputmode="tel" autocomplete="tel" required>
                 </label>
                 <button type="submit" class="callback-form__submit">Отправить</button>
                 <p class="callback-form__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
@@ -358,4 +318,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
