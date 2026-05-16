@@ -678,6 +678,18 @@ body {
     width: 100%;
     margin-top: 13px;
     flex-shrink: 0;
+    cursor: url("images/hand.png") 10 6, grab;
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.cars-slider.swiper-grab {
+    cursor: url("images/hand.png") 10 6, grab;
+}
+
+.cars-slider.swiper-grabbing {
+    cursor: url("images/hand.png") 10 6, grabbing;
 }
 
 .cars-slider .swiper-slide {
@@ -691,6 +703,9 @@ body {
     max-width: 100%;
     height: auto;
     object-fit: contain;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 .cars-dots {

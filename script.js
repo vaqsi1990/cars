@@ -48,6 +48,10 @@
             spaceBetween: 0,
             initialSlide,
             speed: 400,
+            grabCursor: true,
+            simulateTouch: true,
+            allowTouchMove: true,
+            threshold: 8,
             pagination: {
                 el: paginationEl,
                 clickable: true,
